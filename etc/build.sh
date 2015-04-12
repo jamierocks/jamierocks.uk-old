@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-DOCS_REPO=${DOCS_REPO:-"git@github.com:Histacom/histacom.github.io.git"}
+DOCS_REPO=${DOCS_REPO:-"git@github.com:jamierocks/jamierocks.github.io.git"}
 LEX_DEPLOY=https://github.com/LexBot/Deploy.git
 DEPLOY_SCRIPTS=/tmp/histacom/deploy
 
