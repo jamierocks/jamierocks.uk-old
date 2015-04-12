@@ -1,0 +1,10 @@
+sudo: false
+language: node_js
+node_js:
+  - "stable"
+script: "./etc/build.sh"
+env:
+  global:
+    secure: "cGTaqRujqvWiaQvTxMV1HQaZ2l1jsSyFU6tbUAGF91uKevYrrSGbWyY+6L7hqTcQLmE9qu/VcKS3FC1vjr9+wRQSvLrk4nrox6AY3XMdcROwLXm5HfGtlkHSiAMeCdR1quXIN8cQh0uEn/2b0lmMMKizqqw7eecJP2jALPgCOf8="
+notifications:
+  email: false
