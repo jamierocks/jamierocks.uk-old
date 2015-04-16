@@ -8,8 +8,7 @@ tags: tutorial
 
 ## Prerequisites
  [hexo-cli](http://hexo.io/)
- [Git](http://www.git-scm.com/), and set up
- GitHub repository that will contain your website
+ [Git](http://www.git-scm.com/), and set up a GitHub repository that will contain your website
 
 ## Tutorial
  1. To start with, you will need to make sure you have all the prerequisites installed.
@@ -63,6 +62,11 @@ tags: tutorial
  7. Setup auto static generation with a CI
    Like, me you can make it so a CI automatically pushes your static content to your 'master' branch.
    This can be done with any CI, I use [Travis-CI](https://travis-ci.org/).
+   You will need to get the CI to automatically generate the static files, and push them to git.
+   ```
+   hexo generate
+   ```
+   The above generates the static files (they are placed inside the 'public' directory)
    
  8. Start working on your site!
    By this point you can start creating content and modifying the settings of your site.
@@ -70,3 +74,8 @@ tags: tutorial
      * Change the theme
      * Add some plugins
      * Setting up your site details in '_config.yml'
+     
+## Tips
+  * Use `hexo server` to test
+  * Add your site to [Google Webmasters](https://www.google.com/webmasters/), and for other search engines too
+    You may want to generate a sitemap for this, you can do so with the [hexo-generator-sitemap](https://githubcom/hexojs/hexo-generator-sitemap) plugin.
