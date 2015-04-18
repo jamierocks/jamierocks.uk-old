@@ -1,6 +1,9 @@
 title: "Introducing Neptune"
 date: 2015-04-18 20:53:38
-tags: neptune, minecraft, canary
+tags:
+  - neptune
+  - minecraft
+  - canary
 ---
 ## What is Neptune?
   Neptune is a work-in-progress implementation of CanaryLib for 'Vanilla' Minecraft.
