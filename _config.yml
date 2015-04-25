@@ -12,6 +12,11 @@ avatar: https://avatars2.githubusercontent.com/u/5103549
 language: en
 timezone: GMT
 
+# Header
+menu:
+  Home: /
+  Neptune: http://neptune.jamierocks.uk/
+
 # Contacts
 contacts:
   github: http://github.com/jamierocks
