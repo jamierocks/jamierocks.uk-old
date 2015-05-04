@@ -9,17 +9,17 @@ tags:
 ## What is [NeptunePowered](http://www.neptunepowered.org/)?
   NeptunePowered is a team dedicated to making server owners lives easier.
 
+## What do we make?
+  NeptunePowered produces three pieces of software:
+    * [Neptune](https://github.com/NeptunePowered/Neptune)
+    * [Arno](https://github.com/NeptunePowered/Arno)
+    * [Jupiter](https://github.com/NeptunePowered/Jupiter)
+    
 ## What is Neptune?
-  Neptune is a work-in-progress implementation of CanaryLib for 'Vanilla' Minecraft.
-  It will be implemented using [Mixin](https://github.com/SpongePowered/Mixin).
-  Neptune will also use mcp mappings.
+  Neptune is an implementation of [CanaryLib](http://canarymod.net/) for 'vanilla' Minecraft.
   
-## Why?
-  I am a big supporter of Canary, and feel (in comparison to other server mods) Canary lacks a great implementation.
-  This is why I am creating Neptune.
+## What is Arno
+  Arno is an implementation of [CanaryLib](http://canarymod.net/) for [Minecraft Forge](http://www.minecraftforge.net/).
   
-## What about Arno?
-  I am not stopping development of Arno, infact Arno has been acquired by NeptunePowered.
-  
-## What is Arno?
-  Arno is a similar product to Neptune, except from being implemented ontop Minecraft Forge.
+## What is Jupiter?
+  Jupiter is an implementation of [SpongeAPI](https://www.spongepowered.org/) for [CanaryLib](http://canarymod.net/).
