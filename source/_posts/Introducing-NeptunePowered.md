@@ -11,9 +11,10 @@ tags:
 
 ## What do we make?
   NeptunePowered produces three pieces of software:
-    * [Neptune](https://github.com/NeptunePowered/Neptune)
-    * [Arno](https://github.com/NeptunePowered/Arno)
-    * [Jupiter](https://github.com/NeptunePowered/Jupiter)
+  
+  - [Neptune](https://github.com/NeptunePowered/Neptune)
+  - [Arno](https://github.com/NeptunePowered/Arno)
+  - [Jupiter](https://github.com/NeptunePowered/Jupiter)
     
 ## What is Neptune?
   Neptune is an implementation of [CanaryLib](http://canarymod.net/) for 'vanilla' Minecraft.
