@@ -27,3 +27,8 @@ tags:
   
 ## What is Jupiter?
   Jupiter is an implementation of [SpongeAPI](https://www.spongepowered.org/) for [CanaryLib](http://canarymod.net/).
+  
+## Contact us
+  You are able to contact us in our public IRC channels: #neptune and #neptunedev (irc.esper.net)
+  
+We are looking for developers interesting in shaping the future of Minecraft - sign up [here](https://goo.gl/forms/m1ZWEM6Qu8)
