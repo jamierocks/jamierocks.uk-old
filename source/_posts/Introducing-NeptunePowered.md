@@ -7,7 +7,9 @@ tags:
   - canary
 ---
 ## What is [NeptunePowered](http://www.neptunepowered.org/)?
-  NeptunePowered is a team dedicated to making server owners lives easier.
+  NeptunePowered prides ourselves around providing the best Minecraft can offer.
+  We accomplish this by taking the best of Minecraft today, and adapt it for tomorrow.
+  Currently we are working on the Neptune suite of software, described below.
 
 ## What do we make?
   NeptunePowered produces three pieces of software:
@@ -18,6 +20,7 @@ tags:
     
 ## What is Neptune?
   Neptune is an implementation of [CanaryLib](http://canarymod.net/) for 'vanilla' Minecraft.
+  You may think this is exactly the same as CanaryMod, however the two differ in the way they are implemented.
   
 ## What is Arno
   Arno is an implementation of [CanaryLib](http://canarymod.net/) for [Minecraft Forge](http://www.minecraftforge.net/).
