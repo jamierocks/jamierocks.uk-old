@@ -35,6 +35,6 @@ tags:
   
 ## Contact us
   You are able to contact us in our public IRC channels: [#neptune](https://kiwiirc.com/client/irc.esper.net/?#neptune) and [#neptunedev](https://kiwiirc.com/client/irc.esper.net/?#neptunedev) (irc.esper.net)
-  You can also contact use through our public email: [contact@neptunepowered.org](mailto:contact@neptunepowered.org)
+  You can also contact us through our public email: [contact@neptunepowered.org](mailto:contact@neptunepowered.org)
   
 We are looking for developers interesting in shaping the future of Neptune: [sign up](https://goo.gl/forms/m1ZWEM6Qu8)

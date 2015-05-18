@@ -15,6 +15,7 @@ timezone: GMT
 # Header
 menu:
   Home: /
+  About Me: /About-Me/
   NeptunePowered: http://www.neptunepowered.org/
 
 # Contacts
