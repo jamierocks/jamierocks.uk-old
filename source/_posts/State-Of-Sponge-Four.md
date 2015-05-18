@@ -5,7 +5,7 @@ tags:
   - sponge
 ---
 Once again SpongePowered have announced their next State Of Sponge, and like last time I will make a blog post about it.
-In case you don't know State of Sponge is where the Sponge team comes together to talk about progress in a nice ~2 hour live stream.
+In case you don't know what State of Sponge is it is where the Sponge team come together to talk about their progress in a nice ~2 hour live stream.
 There is usually a demo server, running the latest build of Sponge, showcasing community and sponge-made plugins.
 
 The stream should be available on [twitch.tv/SpongePoweredMC](http://www.twitch.tv/SpongePoweredMC), however it is recommended you follow them on [Twitter](https://twitter.com/spongepowered) in case this changes.
