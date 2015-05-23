@@ -9,7 +9,7 @@ tags:
   - canary
 ---
 ## What is [NeptunePowered](http://www.neptunepowered.org/)?
-  NeptunePowered prides ourselves around providing the best Minecraft can offer.
+  At NeptunePowered, we pride ourselves around providing the best Minecraft can offer.
   We accomplish this by taking the best of Minecraft today, and adapting it for tomorrow.
   Currently we are working on the Neptune suite of software, described below.
 
