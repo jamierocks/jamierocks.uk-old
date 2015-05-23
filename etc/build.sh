@@ -13,18 +13,14 @@ eval $(ssh-agent)
 # Set up our Git environment
 $DEPLOY_SCRIPTS/setup_git
 
+# Build the docs
+hexo generate
+
 # Clone repo
-mkdir public
 cd public
 git init
 git remote add origin $DOCS_REPO
-git fetch
 git checkout master
-
-# Build the docs
-cd ../
-hexo generate
-cd public
 
 # If we're on the master branch, do deploy
 if [[ $TRAVIS_BRANCH = source ]]; then
