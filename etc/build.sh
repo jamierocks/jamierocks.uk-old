@@ -16,6 +16,9 @@ $DEPLOY_SCRIPTS/setup_git
 # Build the docs
 hexo generate
 
+# Copy static files
+cp -R ./etc/static/. public/
+
 # Clone repo
 cd public
 git init

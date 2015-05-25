@@ -1,5 +1,4 @@
 title: "About Me"
-date: 2015-05-18 22:55:39
 comments: false
 ---
 Hello there, my name is Jamie and I am a programmer.
