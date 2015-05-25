@@ -2,6 +2,7 @@ title: "State Of Sponge Three"
 date: 2015-04-25 19:09:21
 tags:
   - minecraft
+  - sos
   - sponge
 ---
 In little over 2 hours, State of Sponge Three will commence.

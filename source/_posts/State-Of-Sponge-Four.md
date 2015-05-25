@@ -2,6 +2,7 @@ title: "State Of Sponge Four"
 date: 2015-05-18 22:39:53
 tags:
   - minecraft
+  - sos
   - sponge
 ---
 Once again SpongePowered have announced their next State Of Sponge, and like last time I will make a blog post about it.
@@ -12,6 +13,7 @@ The stream should be available on [twitch.tv/SpongePoweredMC](http://www.twitch.
 Permitting the server isn't as unstable as last time, I will be on there enjoying whatever the Sponge team has created.
 
 <iframe width="400" height="250" src="http://itsalmo.st/#sos4:embed" scrolling="no" frameborder="0" style="border: 1px solid #dbd8d7"></iframe>
+The date has since been rescheduled - read more [here](/2015/05/25/Changes-to-SOS4/).
 
 You can find more information about State Of Sponge Four on their [post](https://forums.spongepowered.org/t/sponge-status-update-17-may-2015).
 

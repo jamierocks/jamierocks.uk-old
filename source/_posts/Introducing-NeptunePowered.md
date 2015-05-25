@@ -13,12 +13,12 @@ tags:
   We accomplish this by taking the best of Minecraft today, and adapting it for tomorrow.
   Currently we are working on the Neptune suite of software, described below.
 
-## What do we make?
+## What do we do?
   NeptunePowered maintains three pieces of software:
 
   - [NeptuneVanilla](https://github.com/NeptunePowered/NeptuneVanilla)
   - [NeptuneForge](https://github.com/NeptunePowered/NeptuneForge)
-  - [Jupiter](https://github.com/NeptunePowered/Jupiter)
+  - [NeptuneLib](https://github.com/NeptunePowered/NeptuneLib)
     
 ## What is NeptuneVanilla?
   NeptuneVanilla is an implementation of [CanaryLib](http://canarymod.net/) for 'vanilla' Minecraft.
@@ -27,8 +27,9 @@ tags:
 ## What is NeptuneForge?
   NeptuneForge is an implementation of [CanaryLib](http://canarymod.net/) for [Minecraft Forge](http://www.minecraftforge.net/).
   
-## What is Jupiter?
-  Jupiter is an implementation of [SpongeAPI](https://www.spongepowered.org/) for [CanaryLib](http://canarymod.net/).
+## What is Neptunelib?
+  NeptuneLib is an extension to CanaryLib, designed to aid the development of plugins.
+  NeptuneLib will be distributed as a plugin to encourage small sized plugins.
   
 ## What about Arno?
   Arno has been used as the basis for NeptuneForge. Lots of code has also been merged into NeptuneCommon.
