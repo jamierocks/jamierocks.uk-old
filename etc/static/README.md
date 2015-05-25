@@ -1,3 +1,3 @@
-jamierocks.github.io
-====================
-The static stuff. Switch to the 'source' branch if you would like to submit a pr, or view the source code.
+jamierocks.uk
+=============
+The static stuff is stored here, if you wish to contribute please use https://github.com/jamierocks/jamierocks.uk

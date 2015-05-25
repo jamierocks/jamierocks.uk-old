@@ -8,7 +8,7 @@ subtitle:
 description: The blog of the programming wizard.
 author: Jamie Mansfield
 author_title: 'Programmer'
-avatar: https://avatars2.githubusercontent.com/u/5103549
+avatar: avatar.png
 language: en
 timezone: GMT
 
@@ -27,7 +27,7 @@ contacts:
 disqus_shortname: jamierocks
 
 # Miscellaneous
-favicon: https://avatars2.githubusercontent.com/u/5103549
+favicon: avatar.png
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'

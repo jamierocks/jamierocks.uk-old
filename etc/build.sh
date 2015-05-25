@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-DOCS_REPO=${DOCS_REPO:-"git@github.com:jamierocks/jamierocks.github.io.git"}
+DOCS_REPO=${DOCS_REPO:-"git@github.com:LexBot/jamierocks.uk.git"}
 LEX_DEPLOY=https://github.com/LexBot/Deploy.git
-DEPLOY_SCRIPTS=/tmp/histacom/deploy
+DEPLOY_SCRIPTS=/tmp/jamierocks/deploy
 
 # Get the deploy scripts
 git clone $LEX_DEPLOY $DEPLOY_SCRIPTS
@@ -12,12 +12,6 @@ eval $(ssh-agent)
 
 # Set up our Git environment
 $DEPLOY_SCRIPTS/setup_git
-
-# Fetch last build
-git clone $DOCS_REPO lastbuild
-git fetch
-git checkout master
-cp -R ./lastbuild/. public/
 
 # Build the docs
 hexo generate
@@ -29,14 +23,14 @@ cp -R ./etc/static/. public/
 cd public
 git init
 git remote add origin $DOCS_REPO
-git checkout master
+git checkout gh-pages
 
 # If we're on the master branch, do deploy
-if [[ $TRAVIS_BRANCH = source ]]; then
+if [[ $TRAVIS_BRANCH = master ]]; then
     # Deploy
     git add --all .
     git commit -q -m "Deploy $(date)"
-    git push -q -f origin master
+    git push -q -f origin gh-pages
     echo "Done! Successfully published docs!"
 fi
 
