@@ -13,6 +13,12 @@ eval $(ssh-agent)
 # Set up our Git environment
 $DEPLOY_SCRIPTS/setup_git
 
+# Fetch last build
+git clone $DOCS_REPO lastbuild
+git fetch
+git checkout master
+cp -R ./lastbuild/. public/
+
 # Build the docs
 hexo generate
 
