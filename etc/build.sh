@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-DOCS_REPO=${DOCS_REPO:-"git@github.com:LexBot/jamierocks.uk.git"}
+SITE_REPO=${SITE_REPO:-"git@github.com:LexBot/jamierocks.uk.git"}
 LEX_DEPLOY=https://github.com/LexBot/Deploy.git
 DEPLOY_SCRIPTS=/tmp/jamierocks/deploy
 
@@ -22,7 +22,7 @@ cp -R ./etc/static/. public/
 # Clone repo
 cd public
 git init
-git remote add origin $DOCS_REPO
+git remote add origin $SITE_REPO
 git checkout gh-pages
 
 # If we're on the master branch, do deploy
@@ -31,7 +31,7 @@ if [[ $TRAVIS_BRANCH = master ]]; then
     git add --all .
     git commit -q -m "Deploy $(date)"
     git push -q -f origin gh-pages
-    echo "Done! Successfully published docs!"
+    echo "Done! Successfully published website!"
 fi
 
 # Kill the ssh-agent because we're done with deploying
