@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-SITE_REPO=${SITE_REPO:-"git@github.com:LexBot/jamierocks.uk.git"}
 LEX_DEPLOY=https://github.com/LexBot/Deploy.git
 DEPLOY_SCRIPTS=/tmp/jamierocks/deploy
 
@@ -22,8 +21,8 @@ cp -R ./etc/static/. public/
 # Clone repo
 cd public
 git init
-git remote add origin $SITE_REPO
-git checkout gh-pages
+git remote add origin git@github.com:LexBot/jamierocks.uk.git
+git checkout --orphan gh-pages
 
 # If we're on the master branch, do deploy
 if [[ $TRAVIS_BRANCH = master ]]; then
