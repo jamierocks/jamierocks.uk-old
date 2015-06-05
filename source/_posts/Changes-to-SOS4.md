@@ -5,8 +5,8 @@ tags:
   - sos
   - sponge
 ---
-Yesterday it was announced that State Of Sponge Four will be rescheduled to Saturday the 6th of June.
-It was rescheduled to allow it to be a month prior to Minecon.
+Yesterday it was announced that State Of Sponge Four has been rescheduled to Saturday the 6th of June.
+It was rescheduled to be a month prior to Minecon.
 
 You can find more information regarding the reschedule on their [post](https://forums.spongepowered.org/t/status-update-24-may-2015/7385).
 
