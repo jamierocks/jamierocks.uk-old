@@ -21,3 +21,7 @@ Beyond State of Sponge they have made their Minecon submission public.
 Hopefully they will get their place in Minecon as they so rightfully deserve.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vAfzLFf7wrY" frameborder="0" allowfullscreen></iframe>
+
+State of Sponge Four has finished now, however you can still watch it.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iZ40YJ8adZE" frameborder="0" allowfullscreen></iframe>
