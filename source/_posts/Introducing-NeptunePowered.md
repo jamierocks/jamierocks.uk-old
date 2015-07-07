@@ -1,4 +1,4 @@
-title: "Introducing NeptunePowered"
+title: Introducing NeptunePowered
 date: 2015-04-18 20:53:38
 tags:
   - neptunepowered
@@ -9,12 +9,12 @@ tags:
   - canary
 ---
 ## What is [NeptunePowered](http://www.neptunepowered.org/)?
-  At NeptunePowered, we pride ourselves around providing the best Minecraft can offer.
-  We accomplish this by taking the best of Minecraft today, and adapting it for tomorrow.
-  Currently we are working on the Neptune suite of software, described below.
+  NeptunePowered is all about providing the best Minecraft can offer.
+  We accomplish this by taking the best of Minecraft today, and preparing it for tomorrow.
+  Currently we are working on Neptune, described below.
 
 ## What do we do?
-  NeptunePowered maintains three pieces of software:
+  Neptune currently develops the following:
 
   - [NeptuneVanilla](https://github.com/NeptunePowered/NeptuneVanilla)
   - [NeptuneForge](https://github.com/NeptunePowered/NeptuneForge)
@@ -22,20 +22,21 @@ tags:
     
 ## What is NeptuneVanilla?
   NeptuneVanilla is an implementation of [CanaryLib](http://canarymod.net/) for 'vanilla' Minecraft.
-  You may think this is exactly the same as CanaryMod, however the two differ in the way they are implemented.
+  Doing the same thing as CanaryMod, NeptuneVanilla differs in implementation and how closely it resembles 'vanilla' Minecraft.
   
 ## What is NeptuneForge?
   NeptuneForge is an implementation of [CanaryLib](http://canarymod.net/) for [Minecraft Forge](http://www.minecraftforge.net/).
   
-## What is Neptunelib?
+## What is NeptuneLib?
   NeptuneLib is an extension to CanaryLib, designed to aid the development of plugins.
   NeptuneLib will be distributed as a plugin to encourage small sized plugins.
   
 ## What about Arno?
-  Arno has been used as the basis for NeptuneForge. Lots of code has also been merged into NeptuneCommon.
+  Arno was renamed and lives on through NeptuneForge.
+  Little change was made during the transition to Neptune. The major one being it is now powered by NeptuneCommon.
   
 ## Contact us
-  You are able to contact us in our public IRC channels: [#neptune](https://kiwiirc.com/client/irc.esper.net/?#neptune) and [#neptunedev](https://kiwiirc.com/client/irc.esper.net/?#neptunedev) (irc.esper.net)
-  You can also contact us through our public email: [contact@neptunepowered.org](mailto:contact@neptunepowered.org)
+  You are able to contact us in our public IRC channels: [#neptune](https://kiwiirc.com/client/irc.esper.net/?#neptune) and [#neptunedev](https://kiwiirc.com/client/irc.esper.net/?#neptunedev) (irc.esper.net).
+  You can also contact us through our public email: [contact@neptunepowered.org](mailto:contact@neptunepowered.org).
   
-We are looking for developers interesting in shaping the future of Neptune: [sign up](https://goo.gl/forms/m1ZWEM6Qu8)
+We are looking for developers interesting in shaping the future of Neptune: [sign up](https://goo.gl/forms/m1ZWEM6Qu8).
